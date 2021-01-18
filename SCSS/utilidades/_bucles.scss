@@ -1,0 +1,3 @@
+@for $i from 1 through 4 {
+    .tamano_h-#{$i} {font-size: 15px *3/$i;}
+}

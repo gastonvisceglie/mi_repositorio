@@ -1,0 +1,72 @@
+body{
+    background-color: #302f2f;
+}
+/** ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    font-family: 'Work Sans', sans-serif;
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    text-align: center;
+    border: 1px groove #000;
+    background-color: lightgray;
+    
+}
+ul li a:hover {
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
+ul li:hover ul {
+    display: block;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+} **/
+a{
+    color:rgb(235, 225, 225);
+    font-family: 'Work Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    color:firebrick;
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    width: 240px;
+}
+h3{
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+p{
+    color:rgb(173, 172, 172);
+    font-family: 'Work Sans', sans-serif;
+    
+}
+h4{
+    text-decoration: underline;
+    font-family: 'Work Sans', sans-serif;
+    color: whitesmoke;
+}
+tr{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+form{
+    font-family: 'Source Code Pro', monospace;
+}
+
