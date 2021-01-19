@@ -7,7 +7,7 @@ a {
 
 h1 {
   text-align: center;
-  color: firebrick;
+  color: #fff;
   font-family: 'Work Sans', sans-serif; }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
   width: 240px; }
 
 h3 {
-  color: darkred;
+  color: #fff;
   font-family: 'Work Sans', sans-serif; }
 
 p {
@@ -234,12 +234,12 @@ header .menu-btn {
   position: relative; }
 
 .service-bg-1 {
-  background: url("images/ejemplo2.jpg");
+  background: url("../images/ejemplo2.jpg");
   background-size: contain;
   background-position: center center; }
 
 .service-bg-2 {
-  background: url("images/ejemplo.jpg");
+  background: url("../images/ejemplo.jpg");
   background-size: contain;
   background-position: center center; }
 
@@ -265,21 +265,55 @@ header .menu-btn {
   transition: .9s;
   color: tomato; }
 
-/*.service-text{
-    padding:50px 30px 20px;
-    font-size:  15px;
-    font-weight: 400;
-}
-.service-text p: :last-child{
-    margin:0;
-    line-height:1.8;
-}*/
+.service-text {
+  padding: 50px 30px 20px;
+  font-size: 15px;
+  font-weight: 400; }
+
+.service-text p:last-child {
+  margin: 0;
+  line-height: 1.8; }
+
 @media only screen and (max-width: 767px) {
   .single-service {
     margin-top: 30px;
     margin-bottom: 30px; }
   .service-bg h2 {
     font-size: 13px; } }
+
+.background {
+  background: url(../images/servicios_img1.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.services {
+  margin: 90px auto;
+  text-align: center; }
+
+.h1__section {
+  letter-spacing: 1px; }
+
+.h1__section::after {
+  content: '';
+  background: white;
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 10px auto; }
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 50%; }
+
+#shadow:hover {
+  margin-bottom: 15px;
+  box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+  cursor: pointer; }
 
 .tamano_h-1 {
   font-size: 45px; }
