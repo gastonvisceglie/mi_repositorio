@@ -5,3 +5,15 @@
 #grad{
     background-image: linear-gradient(to bottom, gray, lightgray);
 }
+#shadow:hover{
+    margin-bottom: 15px;
+    box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
+    cursor:pointer;
+}
+#style{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
