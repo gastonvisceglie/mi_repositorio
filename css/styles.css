@@ -237,7 +237,7 @@ header .menu-btn {
   height: 50%;
   object-fit: cover; }
 
-.hola {
+.section__class {
   background-color: #834545; }
 
 .single-service {
@@ -258,6 +258,16 @@ header .menu-btn {
 
 .service-bg-2 {
   background: url("../images/ejemplo.jpg");
+  background-size: contain;
+  background-position: center center; }
+
+.service-bg-3 {
+  background: url("../images/team-img1.jpg");
+  background-size: contain;
+  background-position: center center; }
+
+.service-bg-4 {
+  background: url("../images/team-img2.jpg");
   background-size: contain;
   background-position: center center; }
 
@@ -302,8 +312,7 @@ header .menu-btn {
 .background {
   background: url(../images/servicios_img1.jpg);
   background-size: cover;
-  background-position: center;
-  margin-bottom: -14px; }
+  background-position: center; }
 
 .services {
   margin: 90px auto;
@@ -425,7 +434,12 @@ header .menu-btn {
   .contact-box {
     grid-template-columns: 1fr; }
   .izquierda {
-    height: 200px; } }
+    height: 200px; }
+  .section__vid {
+    height: 750px; } }
+
+.section__vid {
+  width: 90%; }
 
 .tamano_h-1 {
   font-size: 45px; }
